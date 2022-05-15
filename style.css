@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ }
+ 
+ body {
+    height: 100vh;
+    background-color:purple; 
+    font-family: "Poppins", sans-serif;
+ }
+ 
+ .container{
+    width:70vmin;
+    border:2px solid yellow;
+    padding: 20px 20px 25px; 
+    position :absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+ }
+ 
+ .search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .search-box input {
+    height:36px;
+    padding:5px 15px; 
+    border-radius:2px;
+    width:75%;
+    outline :none; 
+    border:none;
+    font-size:14px;
+    font-weight:400;
+    color:purple;
+ }
+ 
+ .search-box button{
+    border: none;
+    outline: none;
+    width: 20%;
+    height: 36px;
+    background-color: #9c9557;
+    padding: 7px 0;
+    color: #ffffff;
+    font-size:15px;
+    font-weight:500;
+ }
+ 
+ #tasks{
+    padding-top:16px;
+ }
+ 
+ .task{
+    padding:15px 15px; 
+    border-bottom: 1px solid white ;
+    background-color:rgb(75, 73, 73) ;
+    color: #ffffff;
+    height :40px;
+    display :flex; 
+    justify-content :space-between; 
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+ }
+ 
+ .task:last-child{
+    border-bottom: transparent;
+ }
+ 
+ .action{
+    text-decoration: line-through;
+    color: black;
+ }
